@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "BuilderPatternForMicroServices\Common.csproj", "{E0ED02DF-9EA9-470F-A79C-F1F5584EAC81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{E0ED02DF-9EA9-470F-A79C-F1F5584EAC81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialIssue", "SimpleBuildersExample\InitialIssue.csproj", "{759431C3-CD06-4A4A-A6E0-540AC693C54C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialIssue", "InitialIssue\InitialIssue.csproj", "{759431C3-CD06-4A4A-A6E0-540AC693C54C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionWithBuilder", "UserMicroServiceWithBuilder\SolutionWithBuilder.csproj", "{B8EF4B5F-8016-48FF-9750-C5598B748C97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionWithBuilder", "SolutionWithBuilder\SolutionWithBuilder.csproj", "{B8EF4B5F-8016-48FF-9750-C5598B748C97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionWithBuilderAndDirector", "SolutionWithBuilderAndDirector\SolutionWithBuilderAndDirector.csproj", "{8B1F8320-ABB6-458C-92E0-6CB4DE376457}"
 EndProject
