@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{E0ED02DF-9EA9-470F-A79C-F1F5584EAC81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{E0ED02DF-9EA9-470F-A79C-F1F5584EAC81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialIssue", "InitialIssue\InitialIssue.csproj", "{759431C3-CD06-4A4A-A6E0-540AC693C54C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InitialIssue", "InitialIssue\InitialIssue.csproj", "{759431C3-CD06-4A4A-A6E0-540AC693C54C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionWithBuilder", "SolutionWithBuilder\SolutionWithBuilder.csproj", "{B8EF4B5F-8016-48FF-9750-C5598B748C97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionWithBuilder", "SolutionWithBuilder\SolutionWithBuilder.csproj", "{B8EF4B5F-8016-48FF-9750-C5598B748C97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionWithBuilderAndDirector", "SolutionWithBuilderAndDirector\SolutionWithBuilderAndDirector.csproj", "{8B1F8320-ABB6-458C-92E0-6CB4DE376457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionWithBuilderAndDirector", "SolutionWithBuilderAndDirector\SolutionWithBuilderAndDirector.csproj", "{8B1F8320-ABB6-458C-92E0-6CB4DE376457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionWithFluentBuilder", "SolutionWithFluentBuilder\SolutionWithFluentBuilder.csproj", "{1163D627-CF31-4814-99F9-9223B6D20CD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionWithFluentBuilder", "SolutionWithFluentBuilder\SolutionWithFluentBuilder.csproj", "{1163D627-CF31-4814-99F9-9223B6D20CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionWithFluentBuilderAndRelatedFactoryPattern", "SolutionWithFluentBuilderAndRelatedFactoryPattern\SolutionWithFluentBuilderAndRelatedFactoryPattern.csproj", "{62D85ECB-2C07-4B02-BAA5-71B02A53A078}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E0ED02DF-9EA9-470F-A79C-F1F5584EAC81} = {E0ED02DF-9EA9-470F-A79C-F1F5584EAC81}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +44,10 @@ Global
 		{1163D627-CF31-4814-99F9-9223B6D20CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1163D627-CF31-4814-99F9-9223B6D20CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1163D627-CF31-4814-99F9-9223B6D20CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D85ECB-2C07-4B02-BAA5-71B02A53A078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D85ECB-2C07-4B02-BAA5-71B02A53A078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D85ECB-2C07-4B02-BAA5-71B02A53A078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D85ECB-2C07-4B02-BAA5-71B02A53A078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

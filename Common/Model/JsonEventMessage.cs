@@ -1,6 +1,6 @@
 ﻿namespace Common.Model;
 
-public class JsonEventMessage
+public class JsonEventMessage : IEventMessage
 {
     public Guid Id { get; set; }
     public Guid? CorrelationId { get; set; }

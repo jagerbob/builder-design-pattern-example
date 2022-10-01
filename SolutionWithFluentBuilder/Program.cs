@@ -1,7 +1,7 @@
 ﻿using Common.Model;
 using SolutionWithFluentBuilder;
 
-UserMicroServiceWithFluentBuilder userMicroService = new UserMicroServiceWithFluentBuilder();
+var userMicroService = new UserMicroServiceWithFluentBuilder();
 
 userMicroService.Add(new User
 {

@@ -2,17 +2,17 @@
 
 namespace Common.Builder;
 
-public interface IFluentEventMessageBuilder<T>
+public interface IFluentEventMessageBuilder
 {
-    IFluentEventMessageBuilder<T> WithId(Guid id);
-    IFluentEventMessageBuilder<T> WithCorrelationId(Guid correlationId);
-    IFluentEventMessageBuilder<T> WithOrigin(Guid origin);
-    IFluentEventMessageBuilder<T> WithTimestamp(DateTime timestamp);
-    IFluentEventMessageBuilder<T> WithAuthor(Guid authorId);
-    IFluentEventMessageBuilder<T> WithChannel(string channel);
-    IFluentEventMessageBuilder<T> WithEventType(string eventType);
-    IFluentEventMessageBuilder<T> WithUserEvent(UserEvent userEvent);
-    IFluentEventMessageBuilder<T> WithTransactionEvent(TransactionEvent transactionEvent);
-    T Build();
+    IFluentEventMessageBuilder WithId(Guid id);
+    IFluentEventMessageBuilder WithCorrelationId(Guid correlationId);
+    IFluentEventMessageBuilder WithOrigin(Guid origin);
+    IFluentEventMessageBuilder WithTimestamp(DateTime timestamp);
+    IFluentEventMessageBuilder WithAuthor(Guid authorId);
+    IFluentEventMessageBuilder WithChannel(string channel);
+    IFluentEventMessageBuilder WithEventType(string eventType);
+    IFluentEventMessageBuilder WithUserEvent(UserEvent userEvent);
+    IFluentEventMessageBuilder WithTransactionEvent(TransactionEvent transactionEvent);
+    IEventMessage Build();
     void Reset();
 }

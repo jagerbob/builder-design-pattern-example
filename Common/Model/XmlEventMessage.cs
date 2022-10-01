@@ -1,6 +1,6 @@
 ﻿namespace Common.Model;
 
-public class XMLEventMessage
+public class XMLEventMessage : IEventMessage
 {
     public Header Header { get; set; }
 

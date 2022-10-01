@@ -1,7 +1,7 @@
 ﻿using Common.Model;
 using SolutionWithBuilderAndDirector;
 
-UserMicroServiceWithBuilderAndDirector userMicroService = new UserMicroServiceWithBuilderAndDirector();
+var userMicroService = new UserMicroServiceWithBuilderAndDirector();
 
 userMicroService.Add(new User
 {
