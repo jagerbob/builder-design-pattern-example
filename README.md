@@ -17,5 +17,6 @@ Depending of the variable you configured in the playground, the bus may generate
 - **SolutionWithBuilder** : Shows an example of implementation of a basic builder pattern
 - **SolutionWithBuilderAndDirector** : This projects goes a little further by demonstrating how to implement a director on top of a builder
 - **SolutionWithFluentBuilder** : Shows how to implement the fluent builder, an evolution of the basic builder implementation
+- **SolutionWithFluentBuilderAndRelatedFactoryPattern** : Shows how the factory design pattern is related to the builder design pattern.
 
 
