@@ -8,7 +8,7 @@ namespace SolutionWithFluentBuilderAndRelatedFactoryPattern
             => type.ToUpper() switch
             {
                 "JSON" => new FluentJSONEventMessageBuilder(),
-                // "XML" => new FluentXMLEventMessageBuilder(),
+                "XML" => new FluentXMLEventMessageBuilder(),
                 _ => throw new ArgumentException("Invalid type")
             };
     }

@@ -9,11 +9,11 @@ public class UserMicroServiceWithFluentBuilderFactory
     private readonly Guid _microserviceId = Guid.NewGuid();
     private readonly Dictionary<Guid, User> _users = new Dictionary<Guid, User>();
     private readonly FakeBusExchanger _busExchanger = new FakeBusExchanger();
-    private readonly FluentJSONEventMessageBuilder _fluentMessageBuilder = new FluentJSONEventMessageBuilder();
+    private readonly IFluentEventMessageBuilder _fluentMessageBuilder;
 
     public UserMicroServiceWithFluentBuilderFactory(IFluentEventMessageBuilder messageBuilder)
     {
-        
+        _fluentMessageBuilder = messageBuilder;
     }
 
     public void Add(User user)
